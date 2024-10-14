@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio || responsive</title>
+  <link rel="stylesheet" href="resumestyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <h1 class="logo"><a href="#"><i>Bhupendra Singh</i></a></h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero">
+    <div class="container">
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQF5VocN2ycKxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715326324685?e=1733356800&v=beta&t=Ihgik_nh-c-_FJBXGVH8Zg1Mq-Lj6p7GtoT1ldHJw3I" alt="Profile pic">
+      <h2>Hello, I'm <span>Bhupendra Singh</span></h2>
+      <p>A passionate developer focused on building amazing web experiences.</p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>I am a frontend developer with experience in creating responsive, user-friendly websites and applications. I enjoy solving complex problems and constantly learning new technologies &
+      My proficiency in HTML5, CSS, and JavaScript allows me to transform ideas into functional and engaging online experiences.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <h3> <i class="fa-solid fa-list"></i>   To-do List</h3>
+        <p>The concept of to-do lists is ambiquitous in modern life, serving as a 
+            fundamental tool for organizing tasks and managing time 
+            effectively. In the digital era, the transition from traditional paper 
+            lists to digital formats has been significant, with HTML offering a 
+            versatile platform for creating interactive and dynamic to-do lists 
+            accessible across devices.</p>
+      </div>
+      <div class="project">
+        <h3><i class="fa-solid fa-calculator"> calculator</i></h3>
+        <p>This report outlines the process of creating a basic 
+            calculator using HTML. HTML (Hypertext Markup 
+            Language) serves as the backbone for creating web 
+            pages and applications. Building a calculator with 
+            HTML provides a foundational understanding of web 
+            development and user interface design principles. </p>
+      </div>
+      <div class="project">
+        <h3>  <i class="fa-solid fa-window-maximize"></i>  Single page website</h3>
+        <p>This single page website is designed to provide a streamlined and user
+            friendly experience for visitors seeking information about single page website. 
+            The site employs a clean, modern design with intuitive navigation ,allowing user 
+            to easily access key sections such as an introduction, features, benefits, 
+            testimonials, and a contact form </p>
+      </div>
+    </div>
+  </section>
+
+  <!--Skills section-->
+  
+  <div class="skills-section">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill">
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript(Beginner)</li>
+                <li>Python3</li>
+            </ul>
+        </div>
+        <div class="skill">
+          <h3>Frameworks & Libraries</h3>
+          <ul>
+              <li>React</li>
+              <li>Bootstrap</li>
+              <li>NumPy</li>
+              <li>Panda</li>
+          </ul>
+          </div>
+        <div class="skill">
+            <h3>Tools & Technologies</h3>
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>VS Code</li>
+                
+            </ul>
+        </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  
+  <section id="contact">
+    <h2>Contact Me :-</h2><hr>
+    <p>Feel free to reach out to me for any inquiries or collaborations...</p>
+    <div class="contact-info">
+        <p> <i class="fa-solid fa-envelope"></i> bhupendra2310030@akgec.ac.in</p>
+        <p><i class="fa-solid fa-phone"></i>+91 8887798256<hr></p>
+
+        <h2>Find Me On :-</h2>
+        <p><i class="fa-brands fa-instagram"></i>
+        <a href="https://www.instagram.com/16_bhupendra/" target="_blank">Instagram<hr></a></p>
+        <p><i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/bhupendra-singh-5234a828a/" target="_blank">LinkedIn<hr></a></p> 
+        <p><i class="fa-brands fa-github"></i><a href="https://github.com/bhupendrar1" target="_blank">GitHub<hr></a>
+        </p>
+        <p><i class="fa-brands fa-hackerrank"></i>
+          <a href="https://www.hackerrank.com/profile/bhupendra2310030" target="_blank">Hackerrank<hr></a></p>
+    </div>
+
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your name..">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email..">
+        </div>
+
+        <div class="form-group">
+            <label for="message"> Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your Message.."></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+    </form><br>
+
+    <div class="footer-bottom">
+			<p>&copy; 2024 Portfolio of Bhupendra singh.</p><p>All rights reserved.</p>
+		</div>
+</section>
+
+</body>
+</html>
